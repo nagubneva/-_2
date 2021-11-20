@@ -1,0 +1,18 @@
+<meta charset="UTF-8">
+<script>
+    let f = 'осо';
+
+    let s = '';
+    for (let i = 1; i < 10; i++){
+        s = s + f[9-i]
+    }
+    alert(s);
+    alert ('Если ' + s + ' равно ' + f + ', то это палиндром');
+
+    if (s == f) {
+        alert ('палиндром');
+    } else {
+        alert ('не палиндром');
+    }
+
+</script>
